@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-group {
+    margin-left: 10px; /* Adjust as needed for spacing */
+}
+
+.btn-group .btn {
+    white-space: nowrap;
+    margin-right: 30px;
+}
